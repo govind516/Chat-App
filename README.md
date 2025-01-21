@@ -76,7 +76,7 @@ npm install  # Or use `yarn install`
 npm start  # Or use `yarn start`
 ```
 
-The React app should now be accessible at `http://localhost:3000/` by default.
+The React app should now be accessible at `http://localhost:5173/` by default.
 
 ---
 
@@ -98,7 +98,7 @@ The React app should now be accessible at `http://localhost:3000/` by default.
    ```
 
 4. Access the application in your browser at:
-   - Frontend: `http://localhost:3000`
+   - Frontend: `http://localhost:5173`
    - Backend: `http://localhost:8000`
 
 ---
