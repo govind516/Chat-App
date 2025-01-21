@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WebSocket Test</title>
+  </head>
+  <body>
+    <script>
+      const socket = new WebSocket("ws://localhost:8000/ws/chat/2/");
+      socket.onopen = () => console.log("Connected");
+      socket.onerror = (error) => console.error("WebSocket error:", error);
+      socket.onmessage = (event) =>
+        console.log("Message from server:", event.data);
+    </script>
+  </body>
+</html>
